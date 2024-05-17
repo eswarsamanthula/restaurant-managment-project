@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="project.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>RESTURANT</title>
+    
+</head>
+<body>
+
+
+    <div id="home" class="home-main">
+        <div class="topbar-bar">
+            <div class="topbar-main">
+                <div class="topbar-item-bar">
+                    <div class="icon-bar-loction">
+                        <img src="assets/images/3037935.png" alt="logo" class="logo-bar-location">
+                    </div>
+        
+                    <span class="span-bar">
+                        Restaurant St, Delicious City
+                    </span>
+                </div>
+
+                <div class="separator-bar"></div>
+                <div class="topbar-1234">
+                    <div class="topbar-item-bar-2 item-2-bar">
+                        <div class="icon-bar-loction">
+                            <img src="assets/images/2784459.png" alt="logo" class="logo-bar-location">
+                        </div>
+                        <div class="M-BAR">
+                            <span class="span-bar">Daily : 8.00 am to 10.00 pm</span>
+                        </div>
+                    </div>
+                    <div class="num-bar">
+                        <a href="tel:+11234567890" class="topbar-item-bar-3 link-bar">
+                            <div class="icon-bar-loction">
+                                <img src="assets/images/5585856.png" alt="logo" class="logo-bar-location">
+                            </div>
+                            <span class="span-bar">+91 9505581103</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="separator-bar"></div>
+                <div class="email-bar">
+                    <a href="mailto:booking@restaurant.com" class="topbar-item-bar-4 link-bar">
+                        <div class="icon-bar-loction">
+                            <img src="assets/images/3178283.png" alt="logo" class="logo-bar-location">
+                        </div>
+                        <span class="span-bar">booking@restaurant.com</span>
+                    </a>
+                </div>
+            </div>
+        </div> 
+        <hr class="line-bw-navtop">   
+        <div class="nav-bar">
+                <img class="nav-logo" src="assets/images/logo.svg" width="160" height="50">
+            <div class="nav-list-main">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                      <a href="#home" class="navbar-link hover-underline active">Home</a>
+                    </li>
+          
+                    <li class="navbar-item">
+                      <a href="#menu" class="navbar-link hover-underline">Menu</a>
+                    </li>
+          
+                    <li class="navbar-item">
+                      <a href="#about" class="navbar-link hover-underline">About us</a>
+                    </li>
+          
+                    <li class="navbar-item">
+                      <a href="#chefs" class="navbar-link hover-underline">Our Chefs</a>
+                    </li>
+          
+                    <li class="navbar-item">
+                      <a href="#table-booking" class="navbar-link hover-underline">Contact</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#event" class="navbar-link hover-underline">Events</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#delivery" class="navbar-link hover-underline">Online Delivery</a>
+                      </li>
+
+                </ul>
+            </div>
+            <div class="navbar-button">
+                <button id="find-table" class="find-table">FIND THE TABLE</button>
+            </div>
+        </div>
+
+
+
+        <div id="carouselCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/hero-slider-1.jpg" class="d-block w-100" alt="hero_slider_1">
+                <div class="carousel-caption">
+                    <p class="carousel-subtitle">Tradational & Hygine</p>
+                    <img class="separator-carousel" src="assets/images/separator.svg">
+                    <h1 class="carousel-label">For the love of <br>delicious food</h1>
+                    <p> Come with family & feel the joy of mouthwatering food.</p>
+                    <button class="view-menu">VIEW ALL MENU</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/hero-slider-2.jpg" class="d-block w-100" alt="hero_slider_2">
+                <div class="carousel-caption">
+                    <p class="carousel-subtitle">delightful experience</p>
+                    <img class="separator-carousel" src="assets/images/separator.svg">
+                    <h1 class="carousel-label"> Flavors Inspired by <br>the Seasons</h1>
+                    <p>Come with family & feel the joy of mouthwatering food.</p>
+                    <button class="view-menu">VIEW ALL MENU</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/hero-slider-3.jpg" class="d-block w-100" alt="hero_slider_3">
+                <div class="carousel-caption">
+                    <p class="carousel-subtitle">amazing & delicious</p>
+                    <img class="separator-carousel" src="assets/images/separator.svg">
+                    <h1 class="carousel-label">Where every flavor <br> tells a story</h1>
+                    <p> Come with family & feel the joy of mouthwatering food.</p>
+                    <button class="view-menu">VIEW ALL MENU</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div  id="about" class="about_us">
+        <div class="content">
+            <div class="title_1">
+                <br>
+               <p>Our Journey......</p>
+               <img class="separator" src="assets/images/separator.svg"> 
+            </div>
+    
+            <div class="title_2">
+                <h1>Every Flavour Tells a Story..!</h1>
+            </div>
+    
+            <div class="cont">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+                  industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
+                  it to make a type specimen book It has survived not only five centuries, but also the leap into.
+                </p>
+            </div>
+            <div class="contact-label">Book Through Call: </div>
+                <a href="tel:+919550811750" class="contact-number">+91 9550811750</a>
+                <button id="readmore" class="read-more">READ MORE</button>
+        </div>
+        <div class="banner">
+            <br>
+            <br>
+            <img src="assets/images/bannerabout.jpg" width="600px" height="600px">
+            <div class="img-banner">
+                <img class="dec-img" src="assets/images/img-pattern.svg">
+                <img class="img-on-dec" src="assets/images/img-on-dec.avif">
+            </div>
+        </div>
+        <div class="logo">
+            <br>
+            <br>
+            <img src="assets/images/badge-2.png">
+            <img class="since-logo" src="assets/images/badge-2-bg.png">
+        </div>    
+    </div>
+
+
+
+    <div id="menu" class="menucard">
+        <p pt-5>.</p>
+        <p class="sub_title pt-5">FOR YOUR SPECIAL SELECTION</p>
+        <img class="separator-menu" src="assets/images/separator.svg">
+        <p class="title">Delicious Menu</p>
+        <div class="whole-menu">
+            <div class="row">
+                <div class="col item">
+                    <img class="item-img" src="assets/images/menu-1.jpg">
+                    <p class="item-name">ALOO KURMA</p>
+                    <p class="dots">........</p>
+                    <p class="price">$3.59</p>
+                    <div class="ingredients">
+                        <p>Alus,Onions,Tomatoes,Corriander leaf,Green Chilli.</p>
+                    </div>
+                    
+                </div>
+                <div class="col item">
+                    <img class="item-img" src="assets/images/menu-2.webp">
+                    <p class="item-name">PALAK PANNER</p>
+                    <p class="dots">........</p>
+                    <p class="price">$4.05</p>
+                    <div class="ingredients">
+                        <p>Paneer,Spinach leaf ,Cooking oil,Butter,Masala</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col item">
+                    <img class="item-img" src="assets/images/menu-3.jpg">
+                    <p class="item-name">POTLAM BRIYANI</p>
+                    <p class="dots">.........</p>
+                    <p class="price">$4.58</p>
+                    <div class="ingredients">
+                        <p>Chiken,Basmathi rice,Briyani Masala,Onions,Egg.</p>
+                    </div>
+                    
+                </div>
+                <div class="col item">
+                    <img class="item-img" src="assets/images/menu-4.jpg">
+                    <p class="item-name">RUMALI ROTI</p>
+                    <p class="dots">.........</p>
+                    <p class="price">$2.46</p>
+                    <div class="ingredients">
+                        <p>Wheat flour(atta), flour(maida),Cooking oil</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col item">
+                    <img class="item-img" src="assets/images/menu-5.jpg">
+                    <p class="item-name">VEG MANCHURIA</p>
+                    <p class="dots">.........</p>
+                    <p class="price">$3.62</p>
+                    <div class="ingredients">
+                        <p>Wheat flour(atta), flour(maida),Cabbage,Carrots,<br>Koriander leafs,Tomato sauce,Soya sauce</p>
+                    </div>
+                </div>
+                <div class="col item">
+                    <img class="item-img" src="assets/images/menu-6.webp">
+                    <p class="item-name">CHIKEN POLLYPOP</p>
+                    <p class="dots">.........</p>
+                    <p class="price">$4.54</p>
+                    <div class="ingredients">
+                        <p>Chikken,Koriander leafs,Tomato sauce,Soya sauce,<br>Onions,Wheat flour(atta), flour(maida)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col item">
+                    <img class="item-img" src="assets/images/menu-7.webp">
+                    <p class="item-name">FISH CURRY</p>
+                    <p class="dots">.........</p>
+                    <p class="price">$5.02</p>
+                    <div class="ingredients">
+                        <p>Fish,Koriander leafs,Tomatos,Onions,Ginjer-garlic <br>paste,Curry leafs,Green Chilli</p>
+                    </div>
+                </div>
+                <div class="col item">
+                    <img class="item-img" src="assets/images/menu-8.jpeg">
+                    <p class="item-name">BAGARA RICE</p>
+                    <p class="dots">.........</p>
+                    <p class="price">$1.58</p>
+                    <div class="ingredients">
+                        <p>Basmathi rice,Basmathi rice,Briyani Masala,Onions</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    
+    </div>
+
+
+    <section id="special" class="special-bg">
+        <div class="special-dish">
+            <div class="special-dish-content" >
+                <img class="badge" src="assets/images/badge-1.png" alt="badge" >
+                <p class="specialdish-subtitle">Special Dish</p>
+                <img class="separator-specialdish" src="assets/images/separator.svg">
+                <p class="specialdish-title">Hyderabadi <span class="dum-title">Dum</span> <br> Biryani</p>
+                <p class="specialdish-text">
+                    Hyderabadi Dum Biryani: A culinary masterpiece from Hyderabad, where tender meat and fragrant rice are slow-cooked 
+                    with aromatic spices, creating an unforgettable taste sensation.
+                </p>
+        
+                <div class="dish-price">
+                    <del class="del body-3">$40.00</del>
+                    <span class="span body-1">$20.00</span>
+                </div>
+        
+                <button class="view-menu">VIEW ALL MENU</button>
+                
+            </div>
+            <img class="specialdish-cover" src="assets/images/DSC09631 (1).JPG" alt="special dish" >
+        </div>
+        
+    </section>
+   
+
+    
+
+
+
+
+
+    <div id="delivery" class="delivery">
+        <div class="delivery-content">
+
+            <p class="delivery-subtitle pt-5">Delivery</p>
+            <img class="separator-delivery" src="assets/images/separator.svg">
+
+            <h2 class="delivery-title pt-5">
+              A Moments Of Delivered On <span class="delivery-title-span">Right Time</span> &amp; Place
+            </h2>
+
+            <p class="delivery-text pt-5">
+              Savor the epitome of gastronomic delight, meticulously crafted and expertly timed, 
+              seamlessly arriving at your chosen destination,
+              ensuring every moment is savored in culinary bliss.
+            </p>
+            <button class="order">ORDER NOW</button>
+            
+        </div>
+        <img class="delivery-img" src="assets/images/delivery-boy.svg"   alt="delivery boy" >
+        <img src="assets/images/delivery-banner-bg.png"  alt="clouds" class="cloud-img">
+    </div>
+       
+
+
+<div id="event" class="event-main">
+    <div class="event bg-black-10">
+        <div class="event-content">
+
+          <p class="event-subtitle pt-5" 5="">Recent Updates</p>
+          <img class="separator-event" src="assets/images/separator.svg">
+          <h2 class="event-title pt-5 mt-5">Upcoming Event</h2>
+
+            <div class="row pt-5">
+                <div class="col event-img">
+                    <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                        <img src="assets/images/Family-Gatherings-1.jpg" width="350" height="450" class="img-cover has-before hover:shine">
+                        <time class="publish-date label-2" datetime="2022-09-15">15/09/2024</time>
+                    </div>
+
+                    <div class="card-content">
+                        <p class="text-center-1">Family Gathering</p>
+                        <h3 class="title-text-center-1">
+                            Enjoy moments of togetherness and joy at our upcoming gathering.
+                        </h3>
+                    </div>
+                </div>
+                <div class="col event-img">
+                    <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                        <img src="assets/images/community-event.jpeg" width="350" height="450" class="img-cover has-before hover:shine">
+                        <time class="publish-date label-2" datetime="2022-09-08">08/09/2024</time>
+                    </div>
+
+                    <div class="card-content">
+                        <p class="text-center-2">Community Event</p>
+                        <h3 class="title-text-center-2">
+                            Experience the thrill and excitement at our community event.
+                        </h3>
+                    </div>
+
+                </div>
+
+                <div class="col event-img">
+
+                    <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                        <img src="assets/images/GettyImages-1201214757.jpg" width="350" height="450" class="img-cover has-before hover:shine">
+                        <time class="publish-date label-2" datetime="2022-09-03">03/09/2024</time>
+                    </div>
+
+                    <div class="card-content">
+                        <p class="text-center-3">Valentine's Day Celebration</p>
+                        <h3 class="title-text-center-3">
+                            Celebrate love and companionship at our special Valentine's Day gathering.
+                        </h3>
+                    </div>
+                </div>
+
+                
+            </div>
+            <br>
+            <button class="more-events">EXPLORE MORE EVENTS</button>
+        </div>
+    </div>
+</div>
+    
+
+
+<div id="table-booking" class="reservation-main pt-5">
+    <div class="container">
+        <main>
+            <div class="reservation-form">
+                <h2 class="reservation-headline">Online Reservation</h2>
+                <p class="reservation-formtext pt-2">
+                    Booking request <a href="tel:+91 9505543527" class="link">+91-9505543527</a>
+                    or fill out the order form
+                </p>
+                <form action="#" method="POST" class="formreservation">
+                    <input type="text" id="name" name="name" placeholder="Your Name"  class="input-field" required>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" class="input-field" required><br><br>
+                    <input type="time" id="time" name="time" placeholder="Time" class="inputfield" required>
+                    <input type="email" id="email" name="email" placeholder="E-Mail" class="inputfield" required>
+  
+                    <input type="number" id="guests" name="guests" min="1" placeholder="No. of Persons" class="inputfield" required>
+                    <input type="text" placeholder="message" class="input-message">
+                    <button class="submit">Book a Table</button>
+                </form>
+            </div>
+        </main>
+        <aside>
+            <div class="reservation-content">
+                <h2 class="contact-headline">Contact Us</h2>
+                <p>Email: info@example.com</p>
+                <p>Phone: +1 234 567 890</p>
+                <p>Address: 123 Restaurant St, City, Country</p>
+  
+  
+                <p class="contact-lable">Booking Request</p>
+  
+                <a href="tel:+91 9505543527" class="contact-number" style="text-align: center;">Number:+919505543527</a>
+                <p class="contact-lable">Location</p>
+  
+                <address class="address">
+                    Restaurant St, Delicious City, <br>
+                    London 9578, UK
+                </address>
+  
+                <p class="contact-lable">Lunch Time</p>
+  
+                <p class="lunch-time">
+                    Monday to Sunday <br>
+                    11.00 am - 2.30pm
+                </p>
+  
+                <p class="contact-lable">Dinner Time</p>
+  
+                <p class="dinner-time">
+                    Monday to Sunday <br>
+                    05.00 pm - 10.00pm
+                </p>
+            </div>
+        </aside>          
+    </div>
+</div>
+
+
+
+
+
+
+    <div id="chefs" class="our-chefs">
+        <header class="chef-head">
+            <h1>Meet Our Talented Chefs</h1>
+        </header>
+        <main class="chef-main">
+            <div class="chef" style="background-image: url('assets/images/chef1.jpg'); background-size:cover;">
+                <div class="overlay"></div>
+                <h2>Deepika padukoni<span class="designation">Head Chef</span></h2>
+            </div>
+            <div class="chef" style="background-image: url('assets/images/chef2.webp');background-size:cover;">
+                <div class="overlay"></div>
+                <h2>Robert Downy jr.<span class="designation">Sous Chef</span></h2>
+            </div>
+            <div class="chef" style="background-image: url('assets/images/chef3.jpg');background-size:cover;">
+                <div class="overlay"></div>
+                <h2>Michael Johnson<span class="designation">Pastry Chef</span></h2>
+            </div>
+        </main> 
+    </div>
+
+
+
+
+
+
+
+
+    <div id="strength" class="our-strength pt-5">
+        <section class="section-1-our features text-center-our" aria-label="features">
+            <div class="container-1-our">
+                
+                <img src="assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape" class="shape-our shape-12-our">
+    
+              <p class="section-subtitle-our label-2-our">Why Choose Us</p>
+              <img class="separator-FEATURES" src="assets/images/separator.svg">
+              <h2 class="headline-1 section-title-our pt-5 mt-2">Our Strength</h2>
+              
+              <ul class="grid-list-our pt-5">
+    
+                <li class="feature-item">
+                  <div class="feature-card">
+    
+                    <div class="card-icon-our">
+                      <img src="assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+    
+                    <h3 class="title--our card-title-our">Hygienic Food</h3>
+    
+                    <p class="label-1-our card-text-our">Strict quality control ensures certified ingredients and allergen management.</p>
+    
+                  </div>
+                </li>
+    
+                <li class="feature-item">
+                  <div class="feature-card">
+    
+                    <div class="card-icon-our">
+                      <img src="assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+    
+                    <h3 class="title--our card-title-our">Fresh Environment</h3>
+    
+                    <p class="label-1-our card-text-our">Well-ventilated spaces with natural light and sustainable practices.</p>
+    
+                  </div>
+                </li>
+    
+                <li class="feature-item">
+                  <div class="feature-card">
+    
+                    <div class="card-icon-our">
+                      <img src="assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+    
+                    <h3 class="title--our card-title-our">Skilled Chefs</h3>
+    
+                    <p class="label-1-our card-text-our">Innovative cooking with local ingredients, ongoing training, and dietary accommodation.</p>
+    
+                  </div>
+                </li>
+    
+                <li class="feature-item">
+                  <div class="feature-card">
+    
+                    <div class="card-icon-our">
+                      <img src="assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+    
+                    <h3 class="title--our card-title-our">Event &amp; Party</h3>
+    
+                    <p class="label-1-our card-text-our">Custom menus, seamless coordination, themed ambiance, and personalized service.</p>
+    
+                  </div>
+                </li>
+    
+              </ul>
+              <img src="assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape" class="shape-our shape-21-our">
+            </div>
+          </section>
+    </div>
+    
+</body>
+</html>
